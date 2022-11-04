@@ -2,5 +2,5 @@
 A basic GUI calculator application that can perform addition, subtraction, multiplication or division operation on two operands.  
 
 **JAR Executable path:**  standard-calculator/dist/calculator_app.jar
-### **Preview:**
+### **Preview (Windows):**
 ![Calculator](https://github.com/agnibhu-1902/standard-calculator/blob/main/calculator.JPG?raw=true)
