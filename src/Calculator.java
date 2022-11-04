@@ -28,19 +28,19 @@ public class Calculator extends javax.swing.JFrame {
         {
             case 1:
                 ans=num+Double.parseDouble(jTextField1.getText());//Addition
-                jTextField1.setText(Double.toString(ans));
+                jTextField1.setText(Double.toString(ans).substring(0,14));
                 break;
             case 2:
                 ans=num-Double.parseDouble(jTextField1.getText());//Subtraction
-                jTextField1.setText(Double.toString(ans));
+                jTextField1.setText(Double.toString(ans).substring(0,14));
                 break;
             case 3:
                 ans=num*Double.parseDouble(jTextField1.getText());//Multiplication
-                jTextField1.setText(Double.toString(ans));
+                jTextField1.setText(Double.toString(ans).substring(0,14));
                 break;
             case 4:
                 ans=num/Double.parseDouble(jTextField1.getText());//Division
-                jTextField1.setText(Double.toString(ans));
+                jTextField1.setText(Double.toString(ans).substring(0,14));
                 break;
         }
     }
